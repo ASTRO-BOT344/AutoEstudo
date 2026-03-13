@@ -1,4 +1,4 @@
-package src.domingo;
+package src.bootcamp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Component;
@@ -63,4 +63,5 @@ class PagamentoController {
                                     @RequestParam(name = "valor") double valor) {
         return service.executar(tipo, valor);
     }
+
 }
